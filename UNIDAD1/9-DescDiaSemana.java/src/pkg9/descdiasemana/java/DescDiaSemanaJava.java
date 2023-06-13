@@ -1,9 +1,6 @@
 package pkg9.descdiasemana.java;
-    import java.util.Scanner;
-/**
- *
- * @author Daniel
- */
+import java.util.Scanner;
+
 public class DescDiaSemanaJava {
     static double pago, monto, iva ;
     static String dia;
@@ -33,7 +30,7 @@ public class DescDiaSemanaJava {
              System.out.println(" El monto a pagar es = "+res);
         }else{
             System.out.println("Hoy no es dia de descuento...");
-            System.out.println("El monto a pagar es: "+monto);
+            System.out.println("El monto total a pagar es: "+monto);
         }
              
     }
